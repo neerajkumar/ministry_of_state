@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ministry_of_state}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Hemant Kumar"]
+  s.authors = ["Neeraj Kumar"]
   s.date = %q{2011-02-01}
   s.description = %q{A ActiveRecord plugin for working with state machines}
-  s.email = %q{hkumar@crri.co.in}
+  s.email = %q{neeraj.kumar@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     "test/test_ministry_of_state.rb",
     "test/user.rb"
   ]
-  s.homepage = %q{http://github.com/gnufied/ministry_of_state}
+  s.homepage = %q{https://github.com/neerajkumar/ministry_of_state}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.4.1}
@@ -55,20 +55,20 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rails>, ["= 3.0.3"])
+      s.add_runtime_dependency(%q<rails>, [">= 3.0.3"])
       s.add_runtime_dependency(%q<mysql2>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
     else
-      s.add_dependency(%q<rails>, ["= 3.0.3"])
+      s.add_dependency(%q<rails>, [">= 3.0.3"])
       s.add_dependency(%q<mysql2>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     end
   else
-    s.add_dependency(%q<rails>, ["= 3.0.3"])
+    s.add_dependency(%q<rails>, [">= 3.0.3"])
     s.add_dependency(%q<mysql2>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
